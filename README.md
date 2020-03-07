@@ -1,9 +1,11 @@
 # Movies_ETL Challenge Submission
 ## Challenge I experienced
-      Having to create one large function to load my tables was difficult, and seemed to introduce other errors in the cleaning process, due in part, to my inexperience with using functions.  I need more work in this area.  While I was able to get a final product that could be uploaded without load errors, I don't think my final movies_df data frame was as clean as the one I produced using the steps learned in the module.  Therefore, I included two files: 
+      Having to create one large function to load my tables was difficult, and seemed to introduce other errors in the cleaning process, due in part, to my inexperience with using functions.  I need more work in this area.  While I was able to get a final product that could be uploaded without load errors, I don't think my final movies_df data frame was as clean as the one I produced using the steps learned in the module.  Therefore, I included two files: 1) Challenge_final.py, which is the final one that runs correctly using functions such as the ETL function, and 2) Module_runs.ipynb, which is the completion of the module up to the end.  It too, runs correctly, but I think the movies_df table is cleaner.
 
 ### Assumptions
-The challenge asked to provide five assumptions of the ETL process that was undertaken.  I was not entirely sure what this was driving at, but I think it referred to the qualities of the data and a critical eye to the process that occurred using the Python script. Therefore, these are the ones I can think of:
+The challenge asked to provide five assumptions of the ETL process that was undertaken.  I was not entirely sure what this was driving at, but I think it referred to the qualities of the data and a critical eye to the process that occurred using the Python script. 
+
+Therefore, these are the ones I can think of:
 1: Data characteristics
         Data is often very messy when retrieved from sites such as Wikipedia, less so with Kaggle. Nevertheless, one must rely on the functions used to extract and transform the data. If the major ETL function designed at the beginning followed the steps learned in the module about extraction and cleaning and all of the required dependencies were pre-loaded, it can be expected that we will get usable, fair to good data.
 2: Transforms
